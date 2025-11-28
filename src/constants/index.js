@@ -1,4 +1,4 @@
-import { meta, shopify, OnlyNet, tesla, Ravenna } from "../assets/images";
+import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV ,Diamesolavisi} from "../assets/images";
 import {
     car,
     contact,
@@ -21,9 +21,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    Skoufos,
-    Skaftouros,
     BBC,
+    cPanel,
+    RestApiService,
     Riven,
 } from "../assets/icons";
 
@@ -88,6 +88,17 @@ export const skills = [
         name: "Docker",
         type: "DevOps",
     },
+     {
+        imageUrl: cPanel,
+        name: "cPanel",
+        type: "Hosting",
+    },
+    {
+        imageUrl: RestApiService,
+        name: "Rest API Service",
+        type: "Backend",
+    },
+
 ];
 
 export const experiences = [
@@ -109,12 +120,26 @@ export const experiences = [
         company_name: "OnlyNet",
         icon: OnlyNet,
         iconBg: "#accbe1",
-        date: "July 2024 - Present",
+        date: "July 2024 - June 2025",
         points: [
             "Developing and maintaining web applications using Drupal-CMS and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+       {
+        title: "Junior Back-End Developer",
+        company_name: "E-sepia web innovations",
+        icon: Esepia,
+        iconBg: "#accbe1",
+        date: "June 2025 - December 2026",
+        points: [
+            "Assisting in the development and maintenance of server-side logic, databases, and APIs using PHP and Drupal-CMS.",
+            "Collaborating with front-end developers to integrate user-facing elements with server-side logic.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Troubleshooting and debugging applications to ensure optimal performance and user experience.",
+            "Assisting in the deployment and monitoring of applications in production environments.",
         ],
     },
 ];
@@ -139,30 +164,37 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: Skoufos, // Add icon path
-        theme: 'btn-back-red', // Skoufos.eu color: red
-        name: 'Skoufos.eu',
-        description: 'Company project for Onlynet.Redesigned and rebuilt the Skoufos.eu website with a fresh, modern look and improved performance. The updated version is launching soon—check out the current live version for comparison.',
-        link: 'https://github.com/Xristospro21', // Link to current live site
+        iconUrl: EPOGR, // Add icon path
+        theme: 'btn-back-blue-white', // EPO.GR color: blue and white
+        name: 'EPO.GR',
+        description: 'Contributed in this project with (E-sepia) in back-end development using Drupal CMS to redesign the official website of the Hellenic Football Federation (EPO). Focused on enhancing user experience, performance, and accessibility for football fans across Greece.',
+        link: 'https://www.epo.gr/el', // Link to current live site
       },
       {
-        iconUrl: Skaftouros, // Add icon path
-        theme: 'btn-back-lime', // Skaftouros.gr color: lime green
-        name: 'Skaftouros.gr',
-        description: 'Company project for Onlynet.Currently developing a brand new version of Skaftouros.gr, focusing on a clean design, responsive experience, and high-performance architecture. Stay tuned for the launch!',
-        link: 'https://github.com/Xristospro21', // Launch pending
+        iconUrl: SirinaTV, // Add icon path
+        theme: 'btn-back-yellow', // SirinaTV color: yellow
+        name: 'SirinaTV',
+        description: 'Contributed with (E-sepia) to the development of a connection via Centrobill API for new payment methods and subscriptions management for adult content platform SirinaTV using Drupal CMS.',
+        link: 'https://www.sirina.tv', // Link to current live site
+      },
+    {
+        iconUrl: Diamesolavisi, // Add icon path
+        theme: 'btn-back-blue', 
+        name: 'Diamesolavisi.gr',
+        description: 'Contributed with (E-sepia) to backend development using Drupal CMS for the real estate platform Diamesolavisi 2.0, focusing on enhancing property listings, user experience, and site performance.(still in development)',
+        link: 'https://www.diamesolavisi.gr', // Link to current live site
       },
       {
         iconUrl: Riven, // Add icon path
         theme: 'btn-back-green-silver', // Riven theme: green and silver
-        name: 'Project Launch: Riven Champion Spotlight',
+        name: 'Riven Champion Spotlight',
         description: 'Diving deep into Riven’s abilities and playstyle with this comprehensive champion spotlight. Includes pro strategies, gameplay tips, and everything you need to dominate with Riven.',
         link: 'https://github.com/Xristospro21', // Link to project or video
       },
       {
         iconUrl: BBC, // Add icon path
         theme: 'btn-back-black-white', // BBC Clone theme: black and white
-        name: 'BBC Clone (Drupal)',
+        name: 'BBC Clone',
         description: 'Developed a BBC-style news site clone using Drupal, Tailwind CSS, JavaScript, Twig, Sass, and HTML. Fully responsive, content-focused, and built for performance.',
         link: 'https://github.com/Xristospro21', // Link to preview or repo
       },
