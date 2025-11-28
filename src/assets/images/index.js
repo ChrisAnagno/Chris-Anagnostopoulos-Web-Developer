@@ -7,10 +7,19 @@ import logo from './logo.svg'
 import OnlyNet from './OnlyNet.jpg'
 import secondlogo from './secondlogo.jpg'
 import Ravenna from './ravenna.jpg'
+import Esepia from './Esepia.jpg'
+import EPOGR from './EPOGR.png'
+import SirinaTV from './SirinaTV.jpg'
+import Diamesolavisi from './Diamesolavisi.png'
+
 
 export {
     secondlogo,
+    Diamesolavisi,
     Ravenna,
+    Esepia,
+    EPOGR,
+    SirinaTV,
     hero,
     meta,
     shopify,

@@ -34,10 +34,14 @@ import Skoufos from './skoufos.png'
 import Skaftouros from './skaftouros.svg'
 import Riven from './Riven.png'
 import BBC from './BBC.png'
+import cPanel from './cPanel.png'
+import RestApiService from './RestApiService.png'       
 
 
 export {
     linux,
+    cPanel,
+    RestApiService,
     Skaftouros,
     BBC,
     Riven,
