@@ -35,12 +35,14 @@ import Skaftouros from './skaftouros.svg'
 import Riven from './Riven.png'
 import BBC from './BBC.png'
 import cPanel from './cPanel.png'
-import RestApiService from './RestApiService.png'       
+import RestApiService from './RestApiService.png'
+import Wordpress from './Wordpress.png'     
 
 
 export {
     linux,
     cPanel,
+    Wordpress,
     RestApiService,
     Skaftouros,
     BBC,

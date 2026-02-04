@@ -11,6 +11,8 @@ import Esepia from './Esepia.jpg'
 import EPOGR from './EPOGR.png'
 import SirinaTV from './SirinaTV.jpg'
 import Diamesolavisi from './Diamesolavisi.png'
+import MasterplusHR from './Masterplushr.png'
+import HRplus from './HRplus.png'
 
 
 export {
@@ -25,6 +27,8 @@ export {
     shopify,
     starbucks,
     tesla,
+    MasterplusHR,
     OnlyNet,
+    HRplus,
     logo
 }

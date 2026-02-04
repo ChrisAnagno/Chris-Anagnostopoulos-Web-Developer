@@ -1,4 +1,4 @@
-import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV ,Diamesolavisi} from "../assets/images";
+import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV ,Diamesolavisi ,Masterplushr ,HRplus} from "../assets/images";
 import {
     car,
     contact,
@@ -25,6 +25,9 @@ import {
     cPanel,
     RestApiService,
     Riven,
+    Masterplushr,
+    HRplus,
+    Wordpress,
 } from "../assets/icons";
 
 export const skills = [
@@ -98,7 +101,11 @@ export const skills = [
         name: "Rest API Service",
         type: "Backend",
     },
-
+    {
+        imageUrl: Wordpress,
+        name: "Wordpress",
+        type: "CMS",
+    },
 ];
 
 export const experiences = [
@@ -142,6 +149,18 @@ export const experiences = [
             "Assisting in the deployment and monitoring of applications in production environments.",
         ],
     },
+    {
+        title: "Junior Web Developer",
+        company_name: "MasterPlusHR web innovations",
+        icon: Masterplushr,
+        iconBg: "#accbe1",
+        date: "Jan 2026 - still working here",
+        points: [
+            "Assisting in the development and maintenance of web applications using Wordpress-CMS and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -170,14 +189,7 @@ export const projects = [
         description: 'Contributed in this project with (E-sepia) in back-end development using Drupal CMS to redesign the official website of the Hellenic Football Federation (EPO). Focused on enhancing user experience, performance, and accessibility for football fans across Greece.',
         link: 'https://www.epo.gr/el', // Link to current live site
       },
-      {
-        iconUrl: SirinaTV, // Add icon path
-        theme: 'btn-back-yellow', // SirinaTV color: yellow
-        name: 'SirinaTV',
-        description: 'Contributed with (E-sepia) to the development of a connection via Centrobill API for new payment methods and subscriptions management for adult content platform SirinaTV using Drupal CMS.',
-        link: 'https://www.sirina.tv', // Link to current live site
-      },
-    {
+       {
         iconUrl: Diamesolavisi, // Add icon path
         theme: 'btn-back-blue', 
         name: 'Diamesolavisi.gr',
@@ -185,18 +197,25 @@ export const projects = [
         link: 'https://www.diamesolavisi.gr', // Link to current live site
       },
       {
-        iconUrl: Riven, // Add icon path
-        theme: 'btn-back-green-silver', // Riven theme: green and silver
-        name: 'Riven Champion Spotlight',
-        description: 'Diving deep into Riven’s abilities and playstyle with this comprehensive champion spotlight. Includes pro strategies, gameplay tips, and everything you need to dominate with Riven.',
-        link: 'https://github.com/Xristospro21', // Link to project or video
+        iconUrl: SirinaTV, // Add icon path
+        theme: 'btn-back-yellow', // SirinaTV color: yellow
+        name: 'SirinaTV',
+        description: 'Contributed with (E-sepia) to the development of a connection via Centrobill API for new payment methods and subscriptions management for adult content platform SirinaTV using Drupal CMS.',
+        link: 'https://www.sirina.tv', // Link to current live site
       },
       {
-        iconUrl: BBC, // Add icon path
+        iconUrl: Masterplushr, // Add icon path
+        theme: 'btn-back-green-silver', // MasterplusHR
+        name: 'MasterplusHR',
+        description: 'Contributed to the development of MasterplusHR, a platform focused on recruitment and human resources management solutions for businesses.',
+        link: 'https://masterplushr.eu/newsite/', // Link to project or video
+      },
+      {
+        iconUrl: HRplus, // Add icon path
         theme: 'btn-back-black-white', // BBC Clone theme: black and white
-        name: 'BBC Clone',
-        description: 'Developed a BBC-style news site clone using Drupal, Tailwind CSS, JavaScript, Twig, Sass, and HTML. Fully responsive, content-focused, and built for performance.',
-        link: 'https://github.com/Xristospro21', // Link to preview or repo
+        name: 'HRplus',
+        description: 'Contributed to the development of HRplus, a platform focused on human resources management and employee engagement solutions.',
+        link: 'https://hrplus.gr', // Link to preview or repo
       },
 
 ];
