@@ -1,4 +1,4 @@
-import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV ,Diamesolavisi ,Masterplushr ,HRplus} from "../assets/images";
+import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV ,Diamesolavisi ,MasterplusHR,HRplus} from "../assets/images";
 import {
     car,
     contact,
@@ -150,7 +150,7 @@ export const experiences = [
     {
         title: "Junior Web Developer",
         company_name: "MasterPlusHR web innovations",
-        icon: Masterplushr,
+        icon: MasterplusHR,
         iconBg: "#accbe1",
         date: "Jan 2026 - still working here",
         points: [
@@ -202,7 +202,7 @@ export const projects = [
         link: 'https://www.sirina.tv', // Link to current live site
       },
       {
-        iconUrl: Masterplushr, // Add icon path
+        iconUrl: MasterplusHR, // Add icon path
         theme: 'btn-back-green-silver', // MasterplusHR
         name: 'MasterplusHR',
         description: 'Contributed to the development of MasterplusHR, a platform focused on recruitment and human resources management solutions for businesses.',
