@@ -13,6 +13,7 @@ import SirinaTV from './SirinaTV.jpg'
 import Diamesolavisi from './Diamesolavisi.png'
 import Masterplushr  from './Masterplushr.png' // keep file name exactly as is
 import HRplus from './HRplus.png'
+import aristi from './aristi.png'
 
 
 export {
@@ -29,6 +30,7 @@ export {
     tesla,
     Masterplushr,
     OnlyNet,
+    aristi,
     HRplus,
     logo
 }

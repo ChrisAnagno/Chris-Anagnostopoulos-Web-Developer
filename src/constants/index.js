@@ -1,4 +1,4 @@
-import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV , Diamesolavisi ,Masterplushr, HRplus} from "../assets/images";
+import { meta, shopify, OnlyNet, tesla, Ravenna , Esepia , EPOGR , SirinaTV , Diamesolavisi ,Masterplushr, HRplus, aristi} from "../assets/images";
 import {
     car,
     contact,
@@ -181,6 +181,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: aristi, // Add icon path
+        theme: 'btn-back-black-white', // BBC Clone theme: black and white
+        name: 'Aristi',
+        description: 'For aristi.eu we did it with (onlynet) for practice purposes it was already online but we contstructed it from scratch with Drupal CMS as a practice project to enhance our skills in Drupal development and web design.',
+        link: 'https://www.aristi.eu/el', // Link to preview or repo
+      },
+    {
         iconUrl: EPOGR, // Add icon path
         theme: 'btn-back-blue-white', // EPO.GR color: blue and white
         name: 'EPO.GR',
@@ -192,7 +199,7 @@ export const projects = [
         theme: 'btn-back-blue', 
         name: 'Diamesolavisi.gr',
         description: 'Contributed with (E-sepia) to backend development using Drupal CMS for the real estate platform Diamesolavisi 2.0, focusing on enhancing property listings, user experience, and site performance.(still in development)',
-        link: 'https://www.diamesolavisi.gr', // Link to current live site
+        link: 'https://www.diamesolavisi.gov.gr', // Link to current live site
       },
       {
         iconUrl: SirinaTV, // Add icon path
@@ -205,15 +212,14 @@ export const projects = [
         iconUrl: Masterplushr, // Add icon path
         theme: 'btn-back-green-silver', // MasterplusHR
         name: 'MasterplusHR',
-        description: 'Contributed to the development of MasterplusHR, a platform focused on recruitment and human resources management solutions for businesses.',
+        description: 'Contributed to the development of MasterplusHR, a platform focused on recruitment and human resources management solutions for businesses.(still in development)',
         link: 'https://masterplushr.eu/newsite/', // Link to project or video
       },
       {
         iconUrl: HRplus, // Add icon path
-        theme: 'btn-back-black-white', // BBC Clone theme: black and white
+        theme: 'btn-back-blue', 
         name: 'HRplus',
         description: 'Contributed to the development of HRplus, a platform focused on human resources management and employee engagement solutions.',
         link: 'https://hrplus.gr', // Link to preview or repo
       },
-
 ];
