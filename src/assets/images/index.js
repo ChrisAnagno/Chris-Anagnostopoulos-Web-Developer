@@ -27,7 +27,7 @@ export {
     shopify,
     starbucks,
     tesla,
-    Masterplushr ,
+    Masterplushr,
     OnlyNet,
     HRplus,
     logo
