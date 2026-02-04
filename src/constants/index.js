@@ -25,8 +25,6 @@ import {
     cPanel,
     RestApiService,
     Riven,
-    Masterplushr,
-    HRplus,
     Wordpress,
 } from "../assets/icons";
 
